@@ -3,14 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Plural Suzano</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/default.css">
-  <title>Plural Suzano</title>
+  <script type="text/javascript" src="assets/js/default.js"></script>
 </head>
 
 <body>
-
   <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
@@ -22,28 +21,35 @@
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
 
-  <div class="header-block">
+  <div class="toggle-dark-mode">
+    <p>modo escuro</p>
+    <label class="switch">
+      <input type="checkbox" id="dark_mode_input">
+      <span class="slider round"></span>
+    </label>
+  </div>
 
+  <header class="header-block">
     <div>
-      <img src="assets/images/Logo-suzano-horizontal.png" alt="Logo composto por uma folha verde no lado esquerdo da palavra suzano">
+      <img src="assets/images/Logo-suzano-horizontal.png" alt="Uma folha verde no lado esquerdo da palavra suzano">
     </div>
 
     <nav>
       <ul>
-        <li><a href="#" tabindex="0">Home</a></li>
-        <li><a href="#" tabindex="0">A Suzano</a></li>
-        <li><a href="#" tabindex="0">Sustentabilidade</a></li>
-        <li><a href="#" tabindex="0">Inovação</a></li>
-        <li><a href="#" tabindex="0">Fale Conosco</a></li>
+        <li><a href="#inicio" tabindex="0">Início</a></li>
+        <li><a href="#compromissos" tabindex="0">Compromissos</a></li>
+        <li><a href="#metas" tabindex="0">Nossas Metas</a></li>
+        <li><a href="#depoimentos" tabindex="0">Depoimentos</a></li>
+        <li><a href="#faleconosco" tabindex="0">Fale Conosco</a></li>
       </ul>
     </nav>
-  </div>
+  </header>
 
-  <div class="diversity-block">
+  <div class="diversity-block" id="inicio">
 
     <h1 class="diversity-h1">
       Cultivar a <br />
-      <font style="color: #63b1fc">DIVERSIDADE</font><br />
+      <span>DIVERSIDADE</span><br />
       nos fortalece!
     </h1>
 
@@ -52,10 +58,10 @@
       diversidade e a inclusão como premissas para ser uma empresa melhor a cada dia e busca a evolução no tema constantemente.
     </div>
 
-    <img class="diversity-image" src="assets/images/Imagem head.png" alt="Para representar a diversidade há um desenho com 9 pessoas em faixas etárias diferentes, usando roupas com estilos diferentes e cores de pele diferente">
+    <img class="diversity-image" src="assets/images/Imagem head.png" alt="Desenho com 9 pessoas com faixas etárias, estilos de roupas e cor de peles diferentes">
   </div>
 
-  <div class="commitments-block">
+  <div class="commitments-block" id="compromissos">
     <div class="commitment-text">
       <h2>Nossos compromissos</h2>
     </div>
@@ -93,7 +99,7 @@
 
   </div>
 
-  <div class="goals-block">
+  <div class="goals-block" id="metas">
     <div class="goal-text">
       <h2>Nossas metas</h2>
     </div>
@@ -104,7 +110,7 @@
       </div>
       <div class="goal-1-text">
         Alcançar <br />
-        <font style="color: #63b1fc">30% de mulheres</font><br />
+        <span>30% de mulheres</span><br />
         em <strong>posições de liderança</strong> <br />
         até 2025
       </div>
@@ -113,7 +119,7 @@
     <div class="goal-2">
       <div class="goal-2-text">
         Alcançar <br />
-        <font style="color: #63b1fc">30% de pessoas negras</font><br />
+        <span>30% de pessoas negras</span><br />
         em <strong>posições de liderança</strong> <br />
         até 2025
       </div>
@@ -129,14 +135,14 @@
       <img src="assets/images/9d1a5b9a-imagem-4 1.png" alt="Um homem pardo com barba sentado ao lado de uma mulher parda de cabelos cacheados em pé ao lado de um homem negro careca que esta sentado, as 3 pessoas estão sorrindo">
     </div>
     <div class="diversity-policy-text">
-      <h1>Política de diversidade</h1>
+      <h2>Política de diversidade</h2>
       <p>Também temos uma política de diversidade, que determina as diretrizes relacionadas ao movimento Plural e ao
         tema dentro da Suzano:</p>
       <button tabindex="0">Consult today</button>
     </div>
   </div>
 
-  <div class="collaborators-block">
+  <div class="collaborators-block" id="depoimentos">
     <div class="collaborators-text">
       <h3>Aprendemos com nossos colaboradores</h3>
     </div>
@@ -169,57 +175,55 @@
     </div>
 
     <div class="collaborators-button">
-      <button tabindex="0">Veja mais colaboradores</button>
-    </div>
-  </div>
-
-  <div class="footer-block">
-
-    <div class="foot-block-1">
-      <img src="assets/images/Logo-suzano-vertical.png" alt="Logo composto por uma folha verde acima da palavra suzano">
-      <div>
-        <p>Siga a Suzano</p>
-        <ul>
-          <li><img src="assets/images/menu/menu fb.png" alt="Letra F em azul representando o ícone do Facebook"></li>
-          <li><img src="assets/images/menu/menu yt.png" alt="Triângulo dentro de um retângulo com bordas arredondadas representando o YouTube"></li>
-          <li><img src="assets/images/menu/menu in.png" alt="Letras I e N em azul representando o Linkedin"></li>
-          <li><img src="assets/images/menu/menu ig.png" alt="Quadrado com um círculo dentro representando o ícone do Instagram"></li>
-        </ul>
-        <p>2021 Suzano - Todos os Direitos Reservados</p>
-      </div>
-    </div>
-
-    <div class="foot-block-2">
-      <div class="foot-1">
-        <p>A SUZANO</p>
-        <ul>
-          <li><a href="#" tabindex="0">Gente e cultura</a></li>
-          <li><a href="#" tabindex="0">Propósito</a></li>
-          <li><a href="#" tabindex="0">Plural</a></li>
-          <li><a href="#" tabindex="0">Cadeia Produtiva</a></li>
-        </ul>
-      </div>
-
-      <div class="foot-2">
-        <p>MARCAS E PRODUTOS</p>
-        <ul>
-          <li><a href="#" tabindex="0">Celulose</a></li>
-          <li><a href="#" tabindex="0">Papel</a></li>
-          <li><a href="#" tabindex="0">Higiene</a></li>
-          <li><a href="#" tabindex="0">Lignina</a></li>
-          <li><a href="#" tabindex="0">Eucafluff</a></li>
-        </ul>
-      </div>
-
-      <div class="foot-3">
-        <p>SUSTENTABILIDADE</p>
-        <ul>
-          <li><a href="#" tabindex="0">Comunidades</a></li>
-          <li><a href="#" tabindex="0">Meio Ambiente</a></li>
-        </ul>
-      </div>
+      <button tabindex="0">Veja mais depoimentos</button>
     </div>
   </div>
 </body>
+<footer class="footer-block" id="faleconosco">
+  <div class="foot-block-1">
+    <img src="assets/images/Logo-suzano-vertical.png" alt="Uma folha verde acima da palavra suzano">
+    <div>
+      <p>Siga a Suzano</p>
+      <ul>
+        <li><img src="assets/images/menu/menu fb.png" alt="Letra F em azul representando o ícone do Facebook"></li>
+        <li><img src="assets/images/menu/menu yt.png" alt="Triângulo dentro de um retângulo com bordas arredondadas representando o YouTube"></li>
+        <li><img src="assets/images/menu/menu in.png" alt="Letras I e N em azul representando o Linkedin"></li>
+        <li><img src="assets/images/menu/menu ig.png" alt="Quadrado com um círculo dentro representando o ícone do Instagram"></li>
+      </ul>
+      <p>2021 Suzano - Todos os Direitos Reservados</p>
+    </div>
+  </div>
+
+  <div class="foot-block-2">
+    <div class="foot-1">
+      <p>A SUZANO</p>
+      <ul>
+        <li><a href="#" tabindex="0">Gente e cultura</a></li>
+        <li><a href="#" tabindex="0">Propósito</a></li>
+        <li><a href="#" tabindex="0">Plural</a></li>
+        <li><a href="#" tabindex="0">Cadeia Produtiva</a></li>
+      </ul>
+    </div>
+
+    <div class="foot-2">
+      <p>MARCAS E PRODUTOS</p>
+      <ul>
+        <li><a href="#" tabindex="0">Celulose</a></li>
+        <li><a href="#" tabindex="0">Papel</a></li>
+        <li><a href="#" tabindex="0">Higiene</a></li>
+        <li><a href="#" tabindex="0">Lignina</a></li>
+        <li><a href="#" tabindex="0">Eucafluff</a></li>
+      </ul>
+    </div>
+
+    <div class="foot-3">
+      <p>SUSTENTABILIDADE</p>
+      <ul>
+        <li><a href="#" tabindex="0">Comunidades</a></li>
+        <li><a href="#" tabindex="0">Meio Ambiente</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
 </html>
