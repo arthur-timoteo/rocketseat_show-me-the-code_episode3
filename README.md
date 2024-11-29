@@ -19,6 +19,7 @@ Episode 3 of Rocketseat's show me the code event. Show me your language skills.
 
 - Windows 10 Home | 22H2
 - [Visual Studio Code | 1.95.3](https://code.visualstudio.com/)
+- [Netlify](https://www.netlify.com/)
 
 ## List of where the analysis was done
 
